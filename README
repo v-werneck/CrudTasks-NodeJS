@@ -1,0 +1,24 @@
+🚀 Desafio 01 - Ignite Node.js - CRUD + Import CSV
+
+📋 Descrição
+Este projeto é o desafio prático da trilha Node.js do Ignite (Rocketseat), onde foi desenvolvida uma API para gerenciar tarefas (Tasks), com as operações CRUD, além da funcionalidade extra de importação em massa via CSV utilizando Streams.
+
+Foram aplicados conceitos de:
+
+HTTP (métodos, rotas, status)
+
+Estruturação de API REST
+
+Streams e manipulação de arquivos
+
+Trabalhos com CSV (leitura e parse)
+
+Práticas de Clean Code com JavaScript
+
+📂 Funcionalidades
+Rota	Método	Descrição
+/tasks	POST	Criação de uma task
+/tasks	GET	Listagem de todas as tasks (com filtro opcional por title ou description)
+/tasks/:id	PUT	Atualização de uma task (title e/ou description)
+/tasks/:id	DELETE	Remover uma task
+/tasks/:id/complete	PATCH	Marcar ou desmarcar task como concluída
